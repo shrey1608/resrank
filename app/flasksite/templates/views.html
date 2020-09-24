@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <div style="overflow-x:auto;">
+		<h3><u>Candidates Ranking</u></h3>
+		{% for table in tables %}
+		    {{ table|safe }}
+		{% endfor %}
+    </div>
+{% endblock content %}
+

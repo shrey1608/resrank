@@ -1,0 +1,21 @@
+
+{% extends 'layout.html' %}
+{% block content %}
+<div class="container">
+
+<h4>Koi bhi job select karle jo tujhe pasand ho</h4>
+  <form id="form1" action="/home" method="POST" enctype="multipart/form-data" >
+   <select id="mySelect" name = "cars">
+      <option value="keywords">keywords</option>
+      <option value="lol">lol</option>
+      <option value="lmao">lmao</option>
+      <option value="huhu">huhu</option>
+    </select>
+    <div align="center">
+    <input type="submit" value="Generate Profile" class="btn btn-info">
+    </div>
+  </form>
+</div>
+
+{% endblock content %}
+
