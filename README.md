@@ -1,5 +1,7 @@
 # Resume_ranker
 
+Resume Ranker is a machine learning based ranker which ranks the users profile based on the job requirements using the machine learning algorithm based on the Prefrence.
+
 How to run development website in your OS ?
 
 1. pip install flask
